@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane id="application" onKeyPressed="#input" onKeyReleased="#input" onKeyTyped="#input" prefHeight="520.0" prefWidth="1000.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="controller.mainControl">
+  <children>
+    <Button layoutX="0.0" layoutY="494.0" mnemonicParsing="false" onKeyPressed="#input" onKeyReleased="#input" text="Button" />
+  </children>
+</Pane>
